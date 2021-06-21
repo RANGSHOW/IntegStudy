@@ -10,4 +10,3 @@ if __name__ == "__main__":
     print(arr)
     bubbleSort(arr)
     print(arr)
-    
