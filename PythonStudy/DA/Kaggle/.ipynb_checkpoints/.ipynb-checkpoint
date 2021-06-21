@@ -1,0 +1,101 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# 데이터 사이언스의 과정\n",
+    "\n",
+    "## 정보 수집 ↔ 정보 구조화 ↔ 판단 ↔ 행동 \n",
+    "- 정보 수집 (Sensor & Log)\n",
+    "- 정보 구조화 (DB & Preprocess, Data Analysis)\n",
+    "- 판단 (Classification, Regression)\n",
+    "- 행동 (Generate Robotics)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 정보 수집과 정보 구조화\n",
+    "\n",
+    "### 데이터 수집\n",
+    "- 수집한 데이터 모델링\n",
+    "    - 데이터 관계 및 계층\n",
+    "    - 이미지, 오디오, 텍스트\n",
+    "- 방법\n",
+    "    - 센서 정보\n",
+    "    - 수기 작성\n",
+    "    - 로그 정보\n",
+    "- 데이터 구조화\n",
+    "    - Dataset\n",
+    "    - 전처리 (Preprocessing)\n",
+    "    - SQL, Big Query\n",
+    "- 데이터 전송\n",
+    "    - 분산 처리 (Large Scale)\n",
+    "    - Hadoop, Spark"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## 정보를 통한 판단\n",
+    "\n",
+    "### 분석과 판단\n",
+    "- 과정 (EDA & Visualization)\n",
+    "- 정답 X (Unsupervised)\n",
+    "    - 경향성과 특징\n",
+    "- 정답 O (Supervised)\n",
+    "    - 이산적 (Classification, 분류)\n",
+    "    - 연속적 (Regression, 회귀)\n",
+    "\n",
+    "### 데이터의 종류\n",
+    "- 정형 데이터 (Structured)\n",
+    "- 시계열 (Time-Series)\n",
+    "- 이미지 (Computer Vision)\n",
+    "- 음성과 신호 (Signal)\n",
+    "- 텍스트 (NLP)\n",
+    "\n",
+    "### 판단 근거 / 공정성 / 신뢰성 등\n",
+    "- Interpretable / Explainable AI\n",
+    "\n",
+    "### 훈련 / 판단의 환경과 방법\n",
+    "- 측정 (Metric)\n",
+    "- 모델링, 최신 모델 적용\n",
+    "- 기존 훈련 사용 (Pre-trained & Fine Tuning)\n",
+    "- 앙상블 (Ensemble)\n",
+    "- GPU / TPU 사용법\n",
+    "- 경량화와 On-Device"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
