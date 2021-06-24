@@ -101,7 +101,7 @@ console.log(foo.full-name);         // (출력값) NaN
 console.log(foo.full);              // (출력값) undefined
 console.log(name);                  // (출력값) undefined
 
-// for in 문을 통한 객체 프로퍼티 출력
+// 3.2.3 for in 문을 통한 객체 프로퍼티 출력
 // 객체 리터럴을 통한 foo 객체 생성
 
 var foo = {
@@ -118,4 +118,33 @@ var prop;
 for (prop in foo) {
     console.log(prop, foo[prop]);
 }
+
+// 3.2.4 객체 프로퍼티 삭제
+// 객체 리터럴을 통한 foo  객체 생성
+
+var foo = {
+    name: 'foo',
+    nickname: 'babo'
+};
+
+console.log(foo.nickname);
+delete foo.nickname;
+console.log(foo.nickname);
+
+delete foo;
+console.log(foo.name);
+
+// 3.3.0 동일한 객체를 참조하는 두 변수 objA와 objB
+var objA = {
+    val: 40
+};
+var objB = objA;
+
+console.log(objA.val);  // (출력값) 40
+console.log(objB.val);  // (출력값) 40
+
+objB.val = 50;
+console.log(objA.val);  // (출력값) 50
+console.log(objB.val);  // (출력값) 50
+
 
