@@ -5,9 +5,10 @@ def bubbleSort(arr):
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
 
-if __name__ == "__main__":
-    arr = [1, 3, 4, 6, 2, 8, 7, 9, 5]
-    print(arr)
-    bubbleSort(arr)
-    print(arr)
-    
+def dfs(graph, v, visited):
+    visited[v] = True;
+
+
+for i in range(10):
+    for j in range(10):
+        print("{:2} X {:2} = {:2}".format(i, j, i * j))
