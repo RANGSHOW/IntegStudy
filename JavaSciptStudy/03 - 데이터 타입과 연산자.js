@@ -147,4 +147,9 @@ objB.val = 50;
 console.log(objA.val);  // (출력값) 50
 console.log(objB.val);  // (출력값) 50
 
+arr = [1, 2, 3, 4]
 
+
+for (var i=0; i<Object.keys(arr).length; i++) {
+    console.log(arr[i])
+}
