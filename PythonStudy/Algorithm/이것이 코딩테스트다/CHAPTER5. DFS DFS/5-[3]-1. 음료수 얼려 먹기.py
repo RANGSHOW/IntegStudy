@@ -55,9 +55,20 @@ if __name__ == "__main__":
         for j in range(m):
             if (mold[i][j] == 0):
                 pass
+
             
             
-                
-                
-                
-                
+
+def num2Str(num):
+    return str(num)
+print(num2Str(3))
+print(type(num2Str(3)))
+
+class Person:
+    def __init__(self):
+        self.lastName = "Kim"
+        self.firstName = "ChangHyeon"
+
+me = Person()
+
+print(me.firstName)

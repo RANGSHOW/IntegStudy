@@ -149,7 +149,48 @@ console.log(objB.val);  // (출력값) 50
 
 arr = [1, 2, 3, 4]
 
+var a = 100;
+var b = 100;
 
-for (var i=0; i<Object.keys(arr).length; i++) {
-    console.log(arr[i])
+var objA = { value: 100 };
+var objB = { value: 100 };
+var objC = objA;
+
+console.log(objA == objB);
+console.log(objA === objB);
+console.log(objA == objC);
+console.log(objA === objC);
+
+// 3.3.2 Call by Value  와 Call by Reference 차이
+
+var a = 100;
+var objA = { value: 100 };
+
+function changeArg(num, obj) {
+    num = 200;
+    obj.value = 200;
+
+    console.log(num);
+    console.log(obj);
+
 }
+
+changeArg(a, objA);
+
+console.log(a);
+console.log(objA);
+
+// 3.4.0 객체 생성 및 출력 (p.50)
+var foo = {
+    name: 'foo',
+    age: 30
+};
+
+console.log(foo.toString());
+console.dir(foo);
+
+
+// 3.5.1. 배열 리터럴을 통한 배열 생성
+
+// 배열 리터럴을 통한 5개 원소를 가진 배열 생성
+var colorArr = ['orange', 'yellow ']
