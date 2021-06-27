@@ -36,4 +36,3 @@ if aList is bList:
 bList.append(4)
     # 다른 객체에 바인딩 되어 id(aList) != id(bList)
 
-import 
