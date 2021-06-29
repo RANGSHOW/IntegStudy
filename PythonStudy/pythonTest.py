@@ -36,3 +36,28 @@ if aList is bList:
 bList.append(4)
     # 다른 객체에 바인딩 되어 id(aList) != id(bList)
 
+
+# 클래스 생성, 상속 연습
+class Person(object):
+    def __init__(self):
+        self.legNum = 2
+        self.armNum = 2
+        self.gender = "male or female..."
+        self.job = 'null'
+
+    def showGender(self):
+        return self.gender
+
+class Student(Person):
+    def __init__(self):
+        super().__init__()  # 슈퍼 클래스의 __init__() 메소드를 얻어온다 
+        self.job = 'Student'  # 서브 클래스의 __init__() 메소드에 프로퍼티 추가
+
+    def showGender(self):
+        return super().showGender() + " " + "Guess what!"
+    
+
+me = Student()
+print(me.showGender())
+print(me.job)
+
