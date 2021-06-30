@@ -61,3 +61,44 @@ me = Student()
 print(me.showGender())
 print(me.job)
 
+
+aList = [1, 2, 3]
+bList = [1, 2, 3]
+
+print(aList == bList)
+print(aList is bList)
+print("{} \n{}".format(id(aList), id(bList)))
+
+arrList = [1, 2, 3, 4]
+for elem in arrList:
+    print(elem)
+
+
+arrList = [1, 2, 3, 4, 5, 6]
+
+for i in range(10):
+    for j in range(10):
+        print("{} X {} = {}".format(i, j, i * j))
+
+
+
+def binarySearch(arr):
+    index = 0
+    arr.sort()
+
+    
+    
+
+
+    return index
+
+
+
+
+
+
+
+
+
+
+
