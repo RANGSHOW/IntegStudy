@@ -68,5 +68,20 @@
 
 >>> ch01_03. Glitch로 설정 없이 바로 Node 웹 서버 코딩해보기
 
+    const http = require('http')
+
+    const server = http.createServer((req, res) => {
+        res.statusCode = 200
+        res.end('Hello!')
+    })
+
+    const PORT = 3000
+
+    server.listen(PORT, () => {
+        console.log('The Server is listening at port', PORT)
+    })
+
+    - 
+
 
 */
