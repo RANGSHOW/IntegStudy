@@ -81,24 +81,39 @@ for i in range(10):
         print("{} X {} = {}".format(i, j, i * j))
 
 
+for i in range(10):
+    for j in range(10):
+        print("{} X {} = {}".format(i, j, i * j))
 
-def binarySearch(arr):
-    index = 0
-    arr.sort()
+
+
+
+def binarySearch(arr, target, start, end):
+    if start > end:
+        return None
+    mid = (start + end) // 2
+
+    if arr[mid] == target:
+        return mid
+    elif arr[mid] > target:
+        return binarySearch(arr, target, start, mid - 1)
+    else:
+        return binarySearch(arr, target, mid + 1, end)
 
     
-    
+
+from random import randint
+
+num = 30
+arrList = [0, 1, 3, 3, 6, 11, 15, 17, 21, 24, 24, 26, 26, 27, 27, 30, 31, 33, 34, 35, 38, 40, 44, 47, 48, 50, 51, 52, 53, 56]
+
+print("array: ", arrList)
+count = 0
+target = arrList[11]
+result = binarySearch(arrList, target, 0, len(arrList) - 1)
+print(result)
 
 
-    return index
 
 
-
-
-
-
-
-
-
-
-
+w

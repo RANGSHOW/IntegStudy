@@ -174,7 +174,6 @@ function changeArg(num, obj) {
     console.log(obj);
 
 }
-
 changeArg(a, objA);
 
 console.log(a);
@@ -197,3 +196,13 @@ var colorArr = ['orange', 'yellow', 'blue', 'green', 'red'];
 console.log(colorArr[0]);
 console.log(colorArr[1]);
 console.log(colorArr[4]);
+
+var object = {
+    'name': 'Kim Chang Hyeon',
+    'age': 29
+}
+
+console.log(typeof object.age)
+
+for (var i=0; i<10; i++) {
+}
