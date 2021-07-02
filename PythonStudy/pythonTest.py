@@ -112,8 +112,3 @@ count = 0
 target = arrList[11]
 result = binarySearch(arrList, target, 0, len(arrList) - 1)
 print(result)
-
-
-
-
-w

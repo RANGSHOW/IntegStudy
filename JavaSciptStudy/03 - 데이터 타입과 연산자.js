@@ -202,7 +202,6 @@ var object = {
     'age': 29
 }
 
-console.log(typeof object.age)
+class Person {
 
-for (var i=0; i<10; i++) {
 }
