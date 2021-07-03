@@ -197,11 +197,10 @@ console.log(colorArr[0]);
 console.log(colorArr[1]);
 console.log(colorArr[4]);
 
-var object = {
-    'name': 'Kim Chang Hyeon',
-    'age': 29
-}
 
-class Person {
-
+// 3.5.3  배열의 legnth 프로퍼티
+for (let i=0; i<10; i++) {
+    for (let j=0; j<10; j++) {
+         
+    }
 }

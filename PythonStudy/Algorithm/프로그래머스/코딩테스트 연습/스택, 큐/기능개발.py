@@ -18,7 +18,16 @@ def returnCompleList(progress, speeds):
         compleList.append(cnt)
     return compleList
 
-if __name__ == "__main__":
-    returnCompleList(progress, speeds)
-    print(returnCompleList(progress, speeds))
+print(returnCompleList(progress, speeds))
 
+if __name__ == "__main__":
+    compleList = returnCompleList(progress, speeds)
+    plan = []
+    
+    for i in range(len(compleList) - 1):
+        if compleList[i] < compleList[i + 1]:
+            plan.append(i + 1)
+
+
+    print(plan)
+    
