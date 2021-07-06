@@ -112,4 +112,8 @@ count = 0
 target = arrList[11]
 result = binarySearch(arrList, target, 0, len(arrList) - 1)
 print(result)
+names = ['']
 
+from random import randint 
+myNum = randint(10, 100)
+print(myNum)
