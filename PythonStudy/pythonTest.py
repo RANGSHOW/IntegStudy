@@ -100,7 +100,6 @@ def binarySearch(arr, target, start, end):
     else:
         return binarySearch(arr, target, mid + 1, end)
 
-    
 
 from random import randint
 
@@ -114,6 +113,43 @@ result = binarySearch(arrList, target, 0, len(arrList) - 1)
 print(result)
 names = ['']
 
-from random import randint 
-myNum = randint(10, 100)
-print(myNum)
+for i in range(10):
+    for j in range(10):
+        print("{} X {} = {}".format(i, j, i * j))
+
+class Person(object):
+    def __init__(self):
+        self.spices = "human"
+    def showSpices(self):
+        return self.spices
+    def __add__(self, other):
+        return self.spices + other.spices
+print(Person.__dir__)
+
+
+from random import randint
+import numpy as np
+import pandas as pd
+
+myDataFrame = pd.DateFrame([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+
+print(myDataFrame)
+
+from random import randint
+
+
+def showName(object):
+    return object.name
+
+class People(object):
+    def __init__(self, last_name):
+        self.first_name = "rangshow"
+        self.last_name = last_name
+        self.name = self.first_name + " " + last_name
+me = People("Kim")
+print(showName(me))
+
+
+import keras
+import mglearn
+import sklearn

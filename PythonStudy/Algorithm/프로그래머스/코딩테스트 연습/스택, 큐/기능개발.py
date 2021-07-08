@@ -27,7 +27,4 @@ if __name__ == "__main__":
     for i in range(len(compleList) - 1):
         if compleList[i] < compleList[i + 1]:
             plan.append(i + 1)
-
-
-    print(plan)
     

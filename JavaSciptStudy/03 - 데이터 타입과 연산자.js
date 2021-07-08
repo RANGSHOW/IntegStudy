@@ -204,3 +204,13 @@ for (let i=0; i<10; i++) {
          
     }
 }
+
+var myObject = {
+    name: 'Kim',
+    age: 30,
+    job: null
+}
+
+var arrList = {
+
+}
