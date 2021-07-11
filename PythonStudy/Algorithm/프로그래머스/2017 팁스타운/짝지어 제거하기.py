@@ -27,13 +27,28 @@ if __name__ == "__main__":
     for i in range(10):
         for j in range(10):
             print("{} X {} = {}".format(i, j, i * j))
-    
-    for i in range(10):
-        for j in range(10):
-            print('Hello')
+    ansList = [1, 2, 3, 4, 5]
 
 
+def binarySearch(arr, start, end, target):
+    if start > end:
+        return -1 
 
-    for i in range(10):
-        for j in range(10):
-            for i in qwweerr
+    mid = start + end // 2
+
+    if arr[mid] > target:
+        end = mid - 1
+        return binarySearch(arr, start, end, target)
+    elif arr[mid] < target:
+        start = mid + 1
+        return binarySearch(arr, start, end, target)
+    else:
+        return mid
+
+arrList = [1, 4, 5, 8, 9, 10, 13, 14, 19, 20]
+print(binarySearch(arrList, 0, len(arrList) - 1, 10))
+for i in range(10):
+    for j in range(10):
+        pass
+
+

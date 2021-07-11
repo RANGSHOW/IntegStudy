@@ -211,6 +211,44 @@ var myObject = {
     job: null
 }
 
-var arrList = {
+var array = [1, 2, 3, 4, 5, 6]
+console.log(array[1])
 
-}
+// 3.5.2 배열 요소 생성
+
+// 빈 배열
+var emptyArr = [];
+console.log(emptyArr[0]);  // (출력값) undefined
+
+// 배열 요소 동적 생성
+emptyArr[0] = 100;
+emptyArr[3] = 'eight';
+emptyArr[7] = true;
+console.log(emptyArr);  // (출력값) [ 100, <2 empty items>, 'eight', <3 empty items>, true ]
+
+console.log(emptyArr.length);  // (출력값) 8
+
+
+// 3.5.3 배열의 length 프로퍼티
+// 배열 내에 가장 큰 인덱스에 1을 더한 값
+
+var arr = [];
+console.log(arr.length);  // (출력값) 0
+
+arr[0] = 0;  // arr.length == 1
+arr[1] = 1;  // arr.length == 2
+arr[2] = 2;  // arr.length == 3
+arr[100] = 100;
+console.log(arr.length); // (출력값) 101
+
+// 배열 프로퍼티의 명시적 변경
+var arr = [0, 1, 2];
+console.log(arr.length);  // (출력값) 3
+
+arr.length = 5;
+console.log(arr);  // (출력값) [ 0, 1, 2, <2 empty items> ]
+
+arr.length = 2;
+console.log(arr);  // (출력값) [ 0, 1 ]
+console.log(arr[2]);  // (출력값) undefined
+

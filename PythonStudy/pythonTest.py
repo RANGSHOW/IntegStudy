@@ -146,10 +146,11 @@ class People(object):
         self.first_name = "rangshow"
         self.last_name = last_name
         self.name = self.first_name + " " + last_name
+
 me = People("Kim")
-print(showName(me))
+print(showName(me)
 
 
-import keras
-import mglearn
-import sklearn
+for i in range(10):
+    for j in range(10):
+        print("{} X {} = {}".format(i, j, i * j))
