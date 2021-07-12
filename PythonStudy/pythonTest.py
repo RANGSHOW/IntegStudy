@@ -148,9 +148,20 @@ class People(object):
         self.name = self.first_name + " " + last_name
 
 me = People("Kim")
-print(showName(me)
+print(showName(me))
 
 
 for i in range(10):
     for j in range(10):
         print("{} X {} = {}".format(i, j, i * j))
+
+def dfs(graph, v, visited):
+    visited[v] = True
+    for i in graph[v]:
+        pass
+
+def binarySearch(arr):
+    for i in range(len(arr)):
+        for j in range(i, 0, -1):
+        if arr[i] > arr[i + 1]:
+            arr[i], arr[i + 1] = arr[i + 1], arr[i]
