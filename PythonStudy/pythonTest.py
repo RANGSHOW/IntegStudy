@@ -160,8 +160,32 @@ def dfs(graph, v, visited):
     for i in graph[v]:
         pass
 
-def binarySearch(arr):
-    for i in range(len(arr)):
-        for j in range(i, 0, -1):
-        if arr[i] > arr[i + 1]:
-            arr[i], arr[i + 1] = arr[i + 1], arr[i]
+from random import randint 
+
+for i in range(10):
+    for j in range(10):
+        print("{} X {} = {}".format(i, j, i * j))
+
+def binary_search(arr, start, end, target):
+    if start > end:
+        return -1
+    mid = start + end // 2
+    if arr[mid] > target:
+        end = mid - 1
+        
+        return binary_search(arr, start, end, target)
+    elif arr[mid] < target:
+        start = mid + 1
+        return binary_search(arr, start, end, target)
+    else:
+        return mid
+
+import random 
+
+my_list = [1, 8, 2, 7, 4, 3, 6, 5, 9, 10, 12, 14, 13, 11]
+
+my_list.sort()
+
+print(my_list)
+
+print(binary_search(my_list, 0, len(my_list) - 1, 3))

@@ -250,5 +250,20 @@ console.log(arr);  // (출력값) [ 0, 1, 2, <2 empty items> ]
 
 arr.length = 2;
 console.log(arr);  // (출력값) [ 0, 1 ]
-console.log(arr[2]);  // (출력값) undefined
+console.log(arr[2]);  // (출력값) undefine
+
+
+// 3.5.3.1. 배열 표준 메서드와 length 프로퍼티
+
+// arr 배열 생성
+var arr = ['zero', 'one', 'two'];
+
+// push() 메서드 호출
+arr.push('three');
+console.log(arr);  // (호출값) ['zero', 'one', 'two', 'three']
+
+// length 값 변경 후, push() 메서드 호출
+arr.length = 5;
+arr.push('four');
+console.log(arr);  // (출력값) ['zero', 'one', 'two', 'three', undefined, 'four']
 
