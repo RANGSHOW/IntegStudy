@@ -267,3 +267,44 @@ arr.length = 5;
 arr.push('four');
 console.log(arr);  // (출력값) ['zero', 'one', 'two', 'three', undefined, 'four']
 
+
+// 3.5.4 배열과 객체
+
+// colorArray 배열
+var colorArray = ['orange' ,'yellow', 'green'];
+console.log(colorArray[0]);  // (출력값) orange
+console.log(colorArray[1]);  // (출력값) yellow
+console.log(colorArray[2]);  // (출력값) green
+
+// colorObj 객체
+var colorObj = {
+    '0': 'orange',
+    '1': 'yellow',
+    '2': 'green'
+}
+
+console.log(colorObj[0]);  // (출력값) orange
+console.log(colorObj[1]);  // (출력값) yellow
+console.log(colorObj[2]);  // (출력값) green
+
+// typeof 연산자 비교
+console.log(typeof colorArray);  // (출력값) object (not array)
+console.log(typeof colorObj);  // (출력값) object
+
+// length 프로퍼티
+console.log(typeof colorArray);  // (출력값) 3
+console.log(typeof colorObj);  // (출력값) undefined
+
+// 배열 표준 메서드
+colorArray.push('red'); // ['orange' ,'yellow' ,'green', 'red']
+colorObj.push('red');
+    // Uncaught TypeError: Object #<Object> has no method 'push'
+
+var intNum = 3;
+for (var i=0; i<intNum; i++) {
+    for (var j=0; j<intNum; j++) {
+        if (i + j > 2) {
+            console.log("i: " + i + " j: " + j);
+        }
+    }
+}
