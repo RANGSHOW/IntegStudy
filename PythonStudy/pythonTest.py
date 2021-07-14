@@ -187,5 +187,8 @@ my_list = [1, 8, 2, 7, 4, 3, 6, 5, 9, 10, 12, 14, 13, 11]
 my_list.sort()
 
 print(my_list)
+target = 3
+idxOfTarget = binary_search(my_list, 0, len(my_list) - 1, target)
 
-print(binary_search(my_list, 0, len(my_list) - 1, 3))
+print("target: {}\nresult: {}".format(target, my_list[idxOfTarget]))
+
