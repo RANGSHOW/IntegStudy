@@ -29,4 +29,6 @@ if __name__ == "__main__":
         ansList.append(solution(s))
     print(ansList)  # 1, 1, 0, 1
 
-    
+    for i in range(10):
+        for j in range(10):
+            print("Hello")
