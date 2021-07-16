@@ -1,9 +1,6 @@
 # 모두 제거 => return 1
 # 모두 제거 불가 => return 0
 
-from mmap import ACCESS_DEFAULT
-
-
 def solution(s: str):
     answer = -1
 
@@ -29,6 +26,9 @@ if __name__ == "__main__":
         ansList.append(solution(s))
     print(ansList)  # 1, 1, 0, 1
 
+<<<<<<< HEAD
     for i in range(10):
         for j in range(10):
             print("Hello")
+=======
+>>>>>>> 8d0daf390c65ef5d27b809bb391011c80955719d
