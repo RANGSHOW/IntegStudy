@@ -131,7 +131,7 @@ from random import randint
 import numpy as np
 import pandas as pd
 
-myDataFrame = pd.DateFrame([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+myDataFrame = pd.DataFrame([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 
 print(myDataFrame)
 
@@ -191,4 +191,25 @@ target = 3
 idxOfTarget = binary_search(my_list, 0, len(my_list) - 1, target)
 
 print("target: {}\nresult: {}".format(target, my_list[idxOfTarget]))
+
+
+def binarySearch(arr):
+    
+
+    for i in range(10):
+        for j in range(10):
+            print("{} X {} = {}".format(i, j, i * j))
+        print()
+    
+    return
+    
+from random import randint 
+
+myList = [1, 2, 3, 4, 5]
+
+myList.append(6)
+print(myList)
+
+from random import *
+
 
