@@ -104,7 +104,8 @@ def binarySearch(arr, target, start, end):
 from random import randint
 
 num = 30
-arrList = [0, 1, 3, 3, 6, 11, 15, 17, 21, 24, 24, 26, 26, 27, 27, 30, 31, 33, 34, 35, 38, 40, 44, 47, 48, 50, 51, 52, 53, 56]
+arrList = [0, 1, 3, 3, 6, 11, 15, 17, 21, 24, 24, 26, 26, 27, 27, 
+           30, 31, 33, 34, 35, 38, 40, 44, 47, 48, 50, 51, 52, 53, 56]
 
 print("array: ", arrList)
 count = 0
@@ -209,4 +210,5 @@ myList = [1, 2, 3, 4, 5]
 
 myList.append(6)
 print(myList)
+print(myList[0])
 
