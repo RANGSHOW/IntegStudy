@@ -211,4 +211,4 @@ myList = [1, 2, 3, 4, 5]
 myList.append(6)
 print(myList)
 print(myList[0])
-
+print(myList[1])
