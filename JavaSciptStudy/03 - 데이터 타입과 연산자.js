@@ -308,3 +308,7 @@ for (var i=0; i<intNum; i++) {
         }
     }
 }
+
+var arrList = [1, 2, 3, 4, 5]
+
+```
