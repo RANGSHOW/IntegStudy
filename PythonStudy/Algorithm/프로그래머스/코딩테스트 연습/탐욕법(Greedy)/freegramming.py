@@ -20,3 +20,9 @@ import pandas as pd
 df = pd.DataFrame([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 
                 columns=['kim', 'lee', 'park'], 
                 index=['A' ,'B', 'C'])
+
+
+
+for i in range(10):
+    for j in range(10):
+        print("{} X {} = {}".format(i, j, i * j))
