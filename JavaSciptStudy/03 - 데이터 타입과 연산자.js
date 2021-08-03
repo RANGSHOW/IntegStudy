@@ -310,5 +310,6 @@ for (var i=0; i<intNum; i++) {
 }
 
 var arrList = [1, 2, 3, 4, 5]
+var arrList2 = [123, 456, [5, 6, 7]]
 
-```
+console.log(arrList2)
