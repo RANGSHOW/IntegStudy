@@ -313,3 +313,4 @@ var arrList = [1, 2, 3, 4, 5]
 var arrList2 = [123, 456, [5, 6, 7]]
 
 console.log(arrList2)
+console.log(arrList[2])
