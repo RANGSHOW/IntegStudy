@@ -323,3 +323,6 @@ var list = {
 }
 
 console.log(list.name)
+console.log(list.name)
+
+
