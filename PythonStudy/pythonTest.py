@@ -204,8 +204,6 @@ def binarySearch(arr):
     
     return
     
-from random import randint 
-
 myList = [1, 2, 3, 4, 5]
 
 myList.append(6)
@@ -227,6 +225,7 @@ if __name__ == "__main__":
         for j in range(10):
             print("{} X {} = {}".format(i, j, i * j))
 
-    print("later")
-    print("later2")
-    print("later3")
+
+
+if __name__ == "__main__":
+    print("second div")
