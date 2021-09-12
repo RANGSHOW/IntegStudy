@@ -25,7 +25,7 @@ console.log(
     typeof boolVar,
     typeof nullVar,
     typeof emptyVar,
-)
+)  // number number string string string boolean object undefined
 
 
 // 자바스크립트 나눗셈 연산
