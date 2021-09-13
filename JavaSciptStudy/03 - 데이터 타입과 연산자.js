@@ -48,6 +48,20 @@ b = a
 console.log(a == b)
 console.log(a === b)
 
+// == , ===
+// == (value와 value를 비교)
+var numobj = 10
+var strobj = '10'
+console.log(numobj == strobj)  // (출력값) true
+// === (value와 data type을 모두 비교)
+var numobj = 10
+var strobj = '10'
+var numobj2 = 10
+var numobj3 = numobj
+console.log(numobj === strobj)  // (출력값) false
+console.log(numobj === numobj2)  // (출력값) true
+console.log(numobj === numobj3)  // (출력값) true
+
 
 // 객체 생성 //
 
@@ -266,7 +280,7 @@ console.log(arr);  // (호출값) ['zero', 'one', 'two', 'three']
 arr.length = 5;
 arr.push('four');
 console.log(arr);  // (출력값) ['zero', 'one', 'two', 'three', undefined, 'four']
-
+console.log(arr.length)  // (출려값) 6
 
 // 3.5.4 배열과 객체
 
@@ -300,29 +314,17 @@ colorArray.push('red'); // ['orange' ,'yellow' ,'green', 'red']
 colorObj.push('red');
     // Uncaught TypeError: Object #<Object> has no method 'push'
 
-var intNum = 3;
-for (var i=0; i<intNum; i++) {
-    for (var j=0; j<intNum; j++) {
-        if (i + j > 2) {
-            console.log("i: " + i + " j: " + j);
-        }
-    }
-}
-
-var arrList = [1, 2, 3, 4, 5]
-var arrList2 = [123, 456, [5, 6, 7]]
-
-console.log(arrList2)
-console.log(arrList[2])
-
-conosole.log(arrList[2])
 
 var list = {
     name: "kim",
     age: 29
 }
 
-console.log(list.name)
-console.log(list.name)
-console.log(list.age)
 
+var objA = 3
+var objB = '3'
+
+console.log(objA == objB)
+console.log(objA === objB)
+
+var
