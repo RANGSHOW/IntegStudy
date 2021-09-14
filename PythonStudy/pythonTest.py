@@ -215,3 +215,6 @@ def bubble_sort(arr):
             if arr[j] > arr[j + 1]:
                 arr[j + 1], arr[j] = arr[j], arr[j + 1]
 
+
+def binary_search(start, end, target, arr):
+    if 
