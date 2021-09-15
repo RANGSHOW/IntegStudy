@@ -217,4 +217,4 @@ def bubble_sort(arr):
 
 
 def binary_search(start, end, target, arr):
-    if 
+    pass
