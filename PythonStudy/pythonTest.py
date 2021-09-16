@@ -217,4 +217,12 @@ def bubble_sort(arr):
 
 
 def binary_search(start, end, target, arr):
-    pass
+    if start > end:
+        return -1
+    mid = start + end / 2
+    if arr[mid] > target:
+        end = mid - 1
+    elif arr[mid] < target:
+        start = mid + 1
+    else:
+        return 1
