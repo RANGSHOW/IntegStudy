@@ -226,3 +226,6 @@ def binary_search(start, end, target, arr):
         start = mid + 1
     else:
         return 1
+
+
+if __name__ == "__main__":
