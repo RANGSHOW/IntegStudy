@@ -229,3 +229,4 @@ def binary_search(start, end, target, arr):
 
 
 if __name__ == "__main__":
+    print("hello")
