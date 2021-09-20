@@ -252,3 +252,24 @@ if __name__ == "__main__":
     show_arr(my_arr)
     print()
     show_arr(rotate_matrix_90_degree(my_arr))
+
+
+class OddCounter:
+    def __init__(self, start, end):
+        self.start = start
+        self.end = end
+    def __iter__(self):
+        return self
+    def __next__(self):
+        if self.start < self.end:
+            t = self.start
+            self.start += 2
+            return t
+
+        raise StopIteration
+
+if __name__ == "__main__":
+
+    start = 2
+    end = 10
+    my_counter = OddCounter(start, end)
