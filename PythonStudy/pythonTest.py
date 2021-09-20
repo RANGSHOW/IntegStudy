@@ -227,6 +227,28 @@ def binary_search(start, end, target, arr):
     else:
         return 1
 
+def rotate_matrix_90_degree(arr):
+    row_length = len(arr)
+    col_length = len(arr[0])
+
+    res = [[0] * row_length for _ in range(col_length)]
+    for r in range(row_length):
+        for c in range(col_length):
+            res[c][row_length - 1 - r] = arr[r][c]
+
+    return res
+
+def show_arr(arr):
+    row_length = len(arr)
+    col_length = len(arr[0])
+
+    for r in range(row_length):
+        for c in range(col_length):
+            print(arr[r][c], end=' ')
+        print()
 
 if __name__ == "__main__":
-    print("hello")
+    my_arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    show_arr(my_arr)
+    print()
+    show_arr(rotate_matrix_90_degree(my_arr))
