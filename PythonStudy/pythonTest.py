@@ -268,8 +268,11 @@ class OddCounter:
 
         raise StopIteration
 
-if __name__ == "__main__":
 
-    start = 2
-    end = 10
-    my_counter = OddCounter(start, end)
+# 7-4.py 한 줄 입력받아 출력하는 소스코드
+import sys
+input_data = sys.stdin.readlines().rstrip()
+print(input_data)
+
+
+print("Hello World!")

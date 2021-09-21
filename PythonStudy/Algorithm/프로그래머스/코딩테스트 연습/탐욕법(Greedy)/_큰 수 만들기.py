@@ -21,6 +21,4 @@ while len(answerList) == answerNum:
         if len(number[bigNumIndex:]) >= len(answerList):
             pass
         else:
-            mber.
             continue
-            nu
