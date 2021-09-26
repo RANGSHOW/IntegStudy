@@ -276,3 +276,8 @@ print(input_data)
 
 
 print("Hello World!")
+
+
+
+def counter_odd_number(num):
+    
