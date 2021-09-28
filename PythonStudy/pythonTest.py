@@ -280,4 +280,10 @@ print("Hello World!")
 
 
 def counter_odd_number(num):
-    pass
+    res = 0
+    for i in range(1, num + 1):
+        if i // 2 != 0:
+            res += 1
+    return res
+
+print(counter_odd_number(5))
