@@ -35,5 +35,3 @@ if __name__ == "__main__":
     order_list = [5, 7, 9]
     print(search_parts(stock_list, order_list))
 
-
-    

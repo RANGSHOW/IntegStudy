@@ -287,3 +287,12 @@ def counter_odd_number(num):
     return res
 
 print(counter_odd_number(5))
+
+def counter_even_number(num):
+    res = 0
+    for i in range(1, num + 1):
+        if i // 2 == 0:
+            res += 1
+    return res
+
+print(counter_even_number(5))
