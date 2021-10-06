@@ -295,4 +295,7 @@ def counter_even_number(num):
 
 print(counter_odd_number(5))
 
-print(counter_even_number(5))print(counter_even_number(5))
+print(counter_even_number(5))
+print(counter_even_number(5))
+print(counter_even_number(5))
+print(counter_even_number(5))
