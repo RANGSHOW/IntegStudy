@@ -204,12 +204,109 @@ def binarySearch(arr):
     
     return
     
-from random import randint 
-
 myList = [1, 2, 3, 4, 5]
 
 myList.append(6)
-print(myList)
-print(myList[0])
-print(myList[1])
 
+
+def bubble_sort(arr):
+    for i in range(0, len(arr)):
+        for j in range(i, len(arr) - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j + 1], arr[j] = arr[j], arr[j + 1]
+
+
+def binary_search(start, end, target, arr):
+    if start > end:
+        return -1
+    mid = start + end / 2
+    if arr[mid] > target:
+        end = mid - 1
+    elif arr[mid] < target:
+        start = mid + 1
+    else:
+        return 1
+
+def rotate_matrix_90_degree(arr):
+    row_length = len(arr)
+    col_length = len(arr[0])
+
+    res = [[0] * row_length for _ in range(col_length)]
+    for r in range(row_length):
+        for c in range(col_length):
+            res[c][row_length - 1 - r] = arr[r][c]
+
+    return res
+
+def show_arr(arr):
+    row_length = len(arr)
+    col_length = len(arr[0])
+
+    for r in range(row_length):
+        for c in range(col_length):
+            print(arr[r][c], end=' ')
+        print()
+
+if __name__ == "__main__":
+    my_arr = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    show_arr(my_arr)
+    print()
+    show_arr(rotate_matrix_90_degree(my_arr))
+
+
+class OddCounter:
+    def __init__(self, start, end):
+        self.start = start
+        self.end = end
+    def __iter__(self):
+        return self
+    def __next__(self):
+        if self.start < self.end:
+            t = self.start
+            self.start += 2
+            return t
+
+        raise StopIteration
+
+
+# 7-4.py 한 줄 입력받아 출력하는 소스코드
+import sys
+input_data = sys.stdin.readlines().rstrip()
+print(input_data)
+
+
+print("Hello World!")
+
+
+
+def counter_odd_number(num):
+    res = 0
+    for i in range(1, num + 1):
+        if i // 2 != 0:
+            res += 1
+    return res
+
+def counter_even_number(num):
+    res = 0
+    for i in range(1, num + 1):
+        if i // 2 != 0:
+            res += 1
+    return res
+
+print(counter_odd_number(5))
+
+print(counter_even_number(5))
+print(counter_even_number(5))
+print(counter_even_number(5))
+print(counter_even_number(5))
+
+for i in range(10):
+    for j in range(10):
+        print("{} X {} = {}".format(i, j, i * j))
+    print()
+    
+    
+for i in range(10):
+    for j in range(10):
+        print("{} X {} = {}".format(i, j, i * j))
+    print()
