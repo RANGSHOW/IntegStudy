@@ -300,6 +300,4 @@ for i in range(10):
         print("{} X {} = {}".format(i, j, i * j))
     print()
     
-import keras
-
-
+    
