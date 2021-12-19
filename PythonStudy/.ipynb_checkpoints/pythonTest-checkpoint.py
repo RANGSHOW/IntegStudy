@@ -294,19 +294,5 @@ def counter_even_number(num):
     return res
 
 print(counter_odd_number(5))
+ 
 
-print(counter_even_number(5))
-print(counter_even_number(5))
-print(counter_even_number(5))
-print(counter_even_number(5))
-
-for i in range(10):
-    for j in range(10):
-        print("{} X {} = {}".format(i, j, i * j))
-    print()
-    
-    
-for i in range(10):
-    for j in range(10):
-        print("{} X {} = {}".format(i, j, i * j))
-    print()

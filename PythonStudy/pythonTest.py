@@ -295,4 +295,4 @@ def counter_even_number(num):
 
 print(counter_odd_number(5))
  
-    set: 0 0 0 0 
+
