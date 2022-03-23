@@ -64,6 +64,7 @@ print(me.job)
 
 aList = [1, 2, 3]
 bList = [1, 2, 3]
+cList = [1, 2, 3]
 
 print(aList == bList)
 print(aList is bList)
