@@ -86,9 +86,6 @@ for i in range(10):
     for j in range(10):
         print("{} X {} = {}".format(i, j, i * j))
 
-
-
-
 def binarySearch(arr, target, start, end):
     if start > end:
         return None
