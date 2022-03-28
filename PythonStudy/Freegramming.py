@@ -10,3 +10,8 @@ me = Person()
 print(me.get_name())
 me.set_name("ChangHyeon")
 print(me.get_name())
+
+
+
+import random as rd 
+import 
