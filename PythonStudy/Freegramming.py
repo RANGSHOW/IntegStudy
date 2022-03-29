@@ -14,4 +14,5 @@ print(me.get_name())
 
 
 import random as rd 
-import 
+
+print(3 + 3)
