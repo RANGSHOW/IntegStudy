@@ -16,3 +16,7 @@ print(me.get_name())
 import random as rd 
 
 print(3 + 3)
+
+print(pow(0.95,20))
+
+print("hello")
