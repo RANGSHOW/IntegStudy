@@ -19,4 +19,5 @@ print(3 + 3)
 
 print(pow(0.95,20))
 
-print("hello")
+def Person(object):
+    pass
