@@ -21,3 +21,5 @@ print(pow(0.95,20))
 
 def Person(object):
     pass
+
+print("new")
