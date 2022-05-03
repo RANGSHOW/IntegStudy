@@ -22,4 +22,7 @@ print(pow(0.95,20))
 def Person(object):
     pass
 
-print("new")
+for i in range(0, 10):
+    for j in range(0, 10):
+        print("{} X {} = {}".format(i, j, i * j))
+    print()
