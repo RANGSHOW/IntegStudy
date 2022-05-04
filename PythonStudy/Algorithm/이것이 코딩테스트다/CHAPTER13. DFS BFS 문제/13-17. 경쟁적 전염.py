@@ -8,3 +8,5 @@ s, x, y = 2, 3, 2  # s 초 뒤의 (x, y) 의 바이러스 종류 출력
 def multiplication():
     pass
 
+def solution():
+    pass
