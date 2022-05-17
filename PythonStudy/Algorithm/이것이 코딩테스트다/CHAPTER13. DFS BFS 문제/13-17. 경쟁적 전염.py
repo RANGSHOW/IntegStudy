@@ -22,3 +22,8 @@ for i in range(10):
 
 def dfs(graph, visited, v):
     pass
+
+def addNum(num1, num2):
+    return num1 + num2
+
+print(addNum(2, 3))
