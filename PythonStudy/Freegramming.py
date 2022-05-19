@@ -26,3 +26,6 @@ for i in range(0, 10):
     for j in range(0, 10):
         print("{} X {} = {}".format(i, j, i * j))
     print()
+
+
+print(list(range(10, 0, -1 )))
