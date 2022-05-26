@@ -28,4 +28,9 @@ for i in range(0, 10):
     print()
 
 
-print(list(range(10, 0, -1 )))
+print(list(range(10, 0, -1)))
+
+class Animal(object):
+    def __init__(self):
+        self.spices = "animal"
+        
