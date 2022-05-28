@@ -34,3 +34,6 @@ class Animal(object):
     def __init__(self):
         self.spices = "animal"
         
+    def show_spices(self):
+        return self.spices
+        
