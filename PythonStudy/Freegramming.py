@@ -36,4 +36,9 @@ class Animal(object):
         
     def show_spices(self):
         return self.spices
-        
+
+
+for i in range(15):
+    for j in range(15):
+        print("{:2} X {:2} = {:3}".format(i, j, i * j))
+    print()
