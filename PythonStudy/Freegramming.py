@@ -46,3 +46,6 @@ for i in range(15):
     
 print("Hello World!")
 print("Sorry, I don't know what to do...")
+import pandas as pd
+my_array = pd.array([[1, 2, 3], [3, 4, 5], [6, 7, 8]])
+print(my_array)
