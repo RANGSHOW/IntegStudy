@@ -18,4 +18,5 @@ s	result
 8	eight
 9	nine
 """
-
+def solution(arr):
+    pass
