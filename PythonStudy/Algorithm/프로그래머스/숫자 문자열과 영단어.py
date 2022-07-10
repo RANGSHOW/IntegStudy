@@ -20,3 +20,9 @@ s	result
 """
 def solution(arr):
     pass
+# 숫자가 있으면 나눈다
+# 만약에 숫자가 사이에 없고 문자가 연속으로 나온다면? 
+
+def classifyNum(singleNum):
+    
+
