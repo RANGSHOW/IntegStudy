@@ -24,5 +24,5 @@ def solution(arr):
 # 만약에 숫자가 사이에 없고 문자가 연속으로 나온다면? 
 
 def classifyNum(singleNum):
-    
+    pass
 
