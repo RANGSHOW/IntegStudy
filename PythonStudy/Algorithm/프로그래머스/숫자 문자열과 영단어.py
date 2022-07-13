@@ -26,3 +26,5 @@ def solution(arr):
 def classifyNum(singleNum):
     pass
 
+def isnum(intNum):
+    pass
