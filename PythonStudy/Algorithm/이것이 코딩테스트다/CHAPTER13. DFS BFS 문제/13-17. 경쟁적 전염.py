@@ -15,10 +15,6 @@ import random
 
 print(random.randint(0, 100))
 
-for i in range(10):
-    for j in range(10):
-        print("{} X {} = {}".format(i, j, i * j))
-    print()
 
 def dfs(graph, visited, v):
     pass

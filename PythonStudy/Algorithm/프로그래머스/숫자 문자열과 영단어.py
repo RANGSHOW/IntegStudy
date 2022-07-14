@@ -18,8 +18,26 @@ s	result
 8	eight
 9	nine
 """
+numberAlpha = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 
-def solution(string: str) -> str:
+string = "23four5six7"
+string.replace('zero', '0')
+
+def solution(s):
+    s.replace('zero', '0')
+    s.replace('one', '1')
+    s.replace('two', '2')
+    s.replace('three', '3')
+    s.replace('four', '4')
+    s.replace('five', '5')    
+    s.replace('six', '6')
+    s.replace('seven', '7')
+    s.replace('eight', '8')
+    s.replace('nine', '9')
+    answer = int(s)
+    return answer
+
+def solution2(string: str) -> str: # ¹Ì¿Ï¼º 
     answer = []
     for i in len(string):
         if string[i].isdigit() == True:
