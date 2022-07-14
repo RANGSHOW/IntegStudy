@@ -49,3 +49,37 @@ print("Sorry, I don't know what to do...")
 import pandas as pd
 my_array = pd.array([[1, 2, 3], [3, 4, 5], [6, 7, 8]])
 print(my_array)
+
+testString = 'one3two'
+
+def solution(string: str) -> str:
+    answer = []
+    for i in len(string):
+        if string[i].isdigit() == True:
+            answer.append(i)
+        else:
+            if string[i] == 'z':
+                answer.append('0')
+                # i의 위치 다시 잡기
+            elif string[i] == 'o':
+                answer.append('1')
+                # i의 위치 다시 잡기    
+            elif string[i] == 't': # two, three 구분
+                if string[i + 1] == 'w':
+                    answer.append('2')
+                    # i의 위치 다시 잡기                  
+                else:
+                    answer.append('3')
+                    # i의 위치 다시 잡기                  
+                pass
+
+string = 'zero3one3two3'
+answer = []
+for i in range(len(string)):
+    print('i는 {}입니다.'.format(i))
+    if string[i] == 'k':
+        answer.append('케이')
+        i
+    else:
+        pass
+print(answer)

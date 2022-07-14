@@ -21,13 +21,24 @@ s	result
 
 def solution(string: str) -> str:
     answer = []
-    for char in string:
-        if char.isdigit() == True:
-            answer.append(char)
+    for i in len(string):
+        if string[i].isdigit() == True:
+            answer.append(i)
         else:
-            # char 가 숫자가 아니라 문자일 때 문자식별
-            pass
-    return answer
+            if string[i] == 'z':
+                answer.append('0')
+                # i의 위치 다시 잡기
+            elif string[i] == 'o':
+                answer.append('1')
+                # i의 위치 다시 잡기    
+            elif string[i] == 't': # two, three 구분
+                if string[i + 1] == 'w':
+                    answer.append('2')
+                    # i의 위치 다시 잡기                  
+                else:
+                    answer.append('3')
+                    # i의 위치 다시 잡기                  
+                pass
 
 # 숫자가 있으면 나눈다
 # 만약에 숫자가 사이에 없고 문자가 연속으로 나온다면? 
