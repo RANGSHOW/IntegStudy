@@ -18,13 +18,22 @@ s	result
 8	eight
 9	nine
 """
-def solution(arr):
-    pass
+
+def solution(string: str) -> str:
+    answer = []
+    for char in string:
+        if char.isdigit() == True:
+            answer.append(char)
+        else:
+            # char 가 숫자가 아니라 문자일 때 문자식별
+            pass
+    return answer
+
 # 숫자가 있으면 나눈다
 # 만약에 숫자가 사이에 없고 문자가 연속으로 나온다면? 
 
-def classifyNum(singleNum):
-    pass
+question = "one4seveneight"
+print(solution(question))
 
-def isnum(intNum):
-    pass
+print('2'.isdigit())
+print('s'.isdigit())
