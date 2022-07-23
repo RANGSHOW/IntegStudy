@@ -20,3 +20,4 @@ report = ["muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"]
 
 print(solution(id_list, report))
 print(solution(id_list, report))
+print(solution(id_list, report))
