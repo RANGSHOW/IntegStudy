@@ -19,8 +19,8 @@ id_list = ["muzi", "frodo", "apeach", "neo"]
 report = ["muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"]
 
 print(solution(id_list, report))
-print(solution(id_list, report))
-print(solution(id_list, report))
-print(solution(id_list, report))
-print("cause it's weekend")
-print("cause it's Sunday")
+
+for i in range(10):
+    for j in range(10):
+        print("{} X {} = {}".format(i, j, i * j))
+    print()
