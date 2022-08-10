@@ -40,3 +40,4 @@ def intersectionPoint(lists):
 
 print("Finish")
 print("***********")
+print("********__*")
