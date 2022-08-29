@@ -5,3 +5,4 @@ for i in range(n + 1):
     print() 
     print()
     print("Sorry for lazy")
+    print("Today my GF came to ma home")
