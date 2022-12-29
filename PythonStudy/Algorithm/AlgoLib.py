@@ -13,4 +13,3 @@ def rotate_matrix_90_degree(arr):
 
 
 # null
-# null
