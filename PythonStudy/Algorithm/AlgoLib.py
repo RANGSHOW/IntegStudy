@@ -11,5 +11,11 @@ def rotate_matrix_90_degree(arr):
 
     return res
 
-
+print('2')
 # null
+
+def sum(num1, num2): 
+    return num1 + num2
+
+if __name__ == "__main__":
+    print(sum(2, 3))
