@@ -293,4 +293,15 @@ def counter_even_number(num):
 
 print(counter_odd_number(5))
  
+# 90도 돌리는 함수 만들어보기 
 
+#  1  2  3  4 
+#  5  6  7  8 
+#  9 10 11 12
+# 13 14 15 16 
+
+
+
+def rotate90degree(rotateNum :int) ->list :
+    
+    pass
