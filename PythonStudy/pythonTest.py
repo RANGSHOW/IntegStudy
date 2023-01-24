@@ -303,5 +303,7 @@ print(counter_odd_number(5))
 
 
 def rotate90degree(rotateNum :int) ->list :
+    for i in range(10):
+        for j in range(10):
+            pass
     
-    pass
